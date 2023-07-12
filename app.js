@@ -1,5 +1,5 @@
 import express from "express";
-import logger from "./logger/logger-daily-rotate.js"
+import logger from "./logger/logger-exceptions.js"
 const app = express();
 
 app.get("/", (req, res, next) => {
