@@ -1,1 +1,10 @@
 {"level":"info","message":"Server Listening On Port 3000"}
+{"level":"info","message":"Server Listening On Port 3000"}
+{"level":"debug","message":"Hello, Winston!"}
+{"level":"debug","message":"This is the home '.' route."}
+{"level":"error","message":"Error Message"}
+{"level":"warn","message":"Warn Message"}
+{"level":"info","message":"Info Message"}
+{"level":"http","message":"HTTP Message"}
+{"level":"verbose","message":"Verbose Message"}
+{"level":"debug","message":"Debug Message"}
