@@ -13,7 +13,7 @@ const logger = winston.createLogger({
         new DailyRotateFile({
             filename: 'app-%DATE%.log', // name file
             zippedArchive: true, // akan di archive
-            maxSize: '1m', // max size nya 1 mega
+            maxSize: '1m', // max size nya 1 mega jika sudah lebih dari 1 mega akan buat file log baru
             maxFiles: '14d' // max disimpan 14 hari 
         })
     ]
