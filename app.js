@@ -1,5 +1,5 @@
 import express from "express";
-import logger from "./logger/logger-formatting-combaine.js"
+import logger from "./logger/logger-transport-file.js"
 const app = express();
 
 app.get("/", (req, res, next) => {
